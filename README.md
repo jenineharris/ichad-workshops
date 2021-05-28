@@ -8,7 +8,14 @@ R is a statistical software that is <a href = "https://www.r-project.org">free, 
 
 R can do everything that paid statistical software like SPSS and SAS can do, and often more! <a href = "http://r4stats.com/2019/05/28/data-science-jobs-report-2019-python-way-up-tensorflow-growing-rapidly-r-use-double-sas/">Analysis of data on job openings and other metrics</a> shows that R is increasingly included as a desired or required skill, often surpassing traditional closed source software like SPSS and SAS. R is particularly great for **data management** and developing amazing **data visualizations**. This workshop is designed to get you started using R. 
 
-To follow along during the workshops, you will need to install **R** and **R Studio** before the workshop. The speed of installation is often quick but will depend on your computer and your internet connection, so installing ahead of time is recommended.
+To follow along during the workshops, you will need to do two things before the workshop: 
+
+<ol>
+<li> Install R and R Studio 
+<li> Download and save participant materials
+</ol>
+  
+Follow the instructions below to install and download everything you will need.
 
 ### Installing R and R Studio
 
@@ -36,8 +43,13 @@ Second, download and install R Studio:
 
 ### Downloading Workshop Materials
 
+Download the participant files and save them together in the same folder on your computer:
 
-
+<ul>
+<li> Click on the green Code button toward the top of this GitHub page
+<li> Choose Download ZIP
+<li> Unzip the downloaded zip file and save all the files in a single folder on your computer
+</ul>
 
 ### R Resources
 
