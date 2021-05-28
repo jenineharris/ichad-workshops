@@ -1,6 +1,6 @@
-<img src = ""> 
+<p align = "center"><img src = "https://github.com/jenineharris/stuff/blob/master/logo-ichad.png?raw=true"> 
 
-# ichad R Workshops
+# June 2021 R Workshops
 
 ### Information and Instructions to Prepare for the Workshops
 
@@ -8,7 +8,7 @@ R is a statistical software that is <a href = "https://www.r-project.org">free, 
 
 R can do everything that paid statistical software like SPSS and SAS can do, and often more! <a href = "http://r4stats.com/2019/05/28/data-science-jobs-report-2019-python-way-up-tensorflow-growing-rapidly-r-use-double-sas/">Analysis of data on job openings and other metrics</a> shows that R is increasingly included as a desired or required skill, often surpassing traditional closed source software like SPSS and SAS. R is particularly great for **data management** and developing amazing **data visualizations**. This workshop is designed to get you started using R. 
 
-To follow along during the workshops, you will need to install **R** and **R Studio** before the workshop. The speed of installation is often quick but will depend on your computer and your internet connection, so make sure to try ahead of time.
+To follow along during the workshops, you will need to install **R** and **R Studio** before the workshop. The speed of installation is often quick but will depend on your computer and your internet connection, so installing ahead of time is recommended.
 
 ### Installing R and R Studio
 
@@ -33,6 +33,10 @@ Second, download and install R Studio:
   <li> Choose the Download for the operating system you have and click on it  
   <li> Use the installer that downloads to install R Studio 
 </ul>
+
+### Downloading Workshop Materials
+
+
 
 
 ### R Resources
