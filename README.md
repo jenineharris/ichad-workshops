@@ -12,7 +12,7 @@ To follow along during the workshops, you will need to do two things before the 
 
 <ol>
 <li> Install R and R Studio 
-<li> Download and save participant materials
+<li> Download and save workshop materials
 </ol>
   
 Follow the instructions below to install and download everything you will need.
@@ -41,7 +41,7 @@ Second, download and install R Studio:
   <li> Use the installer that downloads to install R Studio 
 </ul>
 
-### Downloading Workshop Materials
+### Downloading and Save Workshop Materials
 
 Download the participant files and save them together in the same folder on your computer:
 
