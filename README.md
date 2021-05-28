@@ -17,7 +17,7 @@ To follow along during the workshops, you will need to do two things before the 
   
 Follow the instructions below to install and download everything you will need.
 
-### Installing R and R Studio
+### Install R and R Studio
 
 R is the software and R Studio is the IDE (Interactive Development Environment) that makes R easier to use. Install R **before** you install R Studio because R Studio will look for R during installation.
 
@@ -41,7 +41,7 @@ Second, download and install R Studio:
   <li> Use the installer that downloads to install R Studio 
 </ul>
 
-### Downloading and Save Workshop Materials
+### Download and Save Workshop Materials
 
 Download the participant files and save them together in the same folder on your computer:
 
