@@ -1,4 +1,4 @@
-<img src = "https://academichive.com/wp-content/uploads/2017/01/HIVE-001-300x142.png"> 
+<img src = ""> 
 
 # ichad R Workshops
 
