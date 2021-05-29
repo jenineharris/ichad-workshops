@@ -53,6 +53,13 @@ Download the participant files and save them together in the same folder on your
 
 ### R Resources
 
+If you miss the presentations, the slides are available:
+
+<ul>
+  <li> <a href = "https://jenineharris.github.io/ichad-presentations/">Part I: Import and Clean Data and Make Tables in R</a>
+  <li> Part II: More Tables plus Graphs
+</ul>
+
 Other places to get more instruction or information on R:
 
 <ul>
