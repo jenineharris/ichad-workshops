@@ -57,7 +57,7 @@ If you miss the presentations, the slides are available:
 
 <ul>
   <li> <a href = "https://jenineharris.github.io/ichad-presentations/">Part I: Import and Clean Data and Make Tables in R</a>
-  <li> Part II: More Tables plus Graphs
+  <li> <a href = "https://jenineharris.github.io/ichad-presentations/viz.html">Part II: More Tables plus Graphs</a>
 </ul>
 
 Other places to get more instruction or information on R:
