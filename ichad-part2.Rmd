@@ -198,7 +198,7 @@ globalData2019clean %>%
   labs(x = "Sex",
        y = "Frequency",
        title = "Sex of 5001 participants in a 2019 survey of people from Kenya,\nNigeria, South Africa, and the United States.") +
-  scale_fill_brewer(palette = "Set2") +
+  scale_fill_brewer(palette = "Set1") +
   theme_minimal()
 ```
 
@@ -211,7 +211,7 @@ globalData2019clean %>%
   labs(x = "Sex",
        y = "Frequency",
        title = "Sex of 5001 participants in a 2019 survey of people from Kenya,\nNigeria, South Africa, and the United States.") +
-  scale_fill_brewer(palette = "Set2") +
+  scale_fill_brewer(palette = "Set1") +
   theme_minimal() +
   theme(legend.position = "none") 
 ```
@@ -380,9 +380,8 @@ globalData2019clean %>%
 
 globalData2019clean %>% 
   ggplot(aes(x = SEX, y = AGE, color = SEX)) +
-  geom_violin() +
-  geom_boxplot() +
-  geom_jitter() +
+  geom_half_boxplot() +
+  geom_half_point(alpha = .4) +
   labs(x = "Participant sex",
        y = "Age",
        title = "Age by sex for 5001 participants in a 2019 survey of people\nfrom Kenya, Nigeria, South Africa, and the United States.") +
@@ -390,19 +389,19 @@ globalData2019clean %>%
   theme(legend.position = "none")
 ```
 
-## Fancier box plot
+## Rain cloud plot
 
 ```{r chunk25}
 
 globalData2019clean %>% 
-  ggplot(aes(x = SEX, y = AGE, color = SEX)) +
-  geom_violin() +
-  geom_boxplot(width = .4) +
-  geom_jitter(alpha = .3) +
+  ggplot(aes(x = SEX, y = AGE, color = SEX, fill = SEX)) +
+  geom_half_violin(side = "r") +
+  geom_half_point(alpha = .3, side = "l") +
   labs(x = "Participant sex",
        y = "Age",
        title = "Age by sex for 5001 participants in a 2019 survey of people from\nKenya, Nigeria, South Africa, and the United States.") +
   scale_color_brewer(palette = "Dark2") +
+  scale_fill_brewer(palette = "Dark2") +
   theme_minimal() +
   coord_flip() +
   theme(legend.position = "none")
@@ -423,7 +422,46 @@ globalData2019clean %>%
   theme_minimal() 
 ```
 
+## Grouped rain cloud plot
 
+```{r chunk27}
+
+globalData2019clean %>% 
+  ggplot(aes(y = LADDER_NOW, x = country, fill = SEX, color = SEX)) +
+  geom_half_violin(side = "r") +
+  geom_half_point(alpha = .3, side = "l") +
+  labs(x = "Country",
+       y = "Life ladder (0 = worst, 10 = best)",
+       title = "Life ladder by sex and country for 5001 participants in a 2019 survey\nof people from Kenya, Nigeria, South Africa, and the United States.",
+       color = "Sex",
+       fill = "Sex") +
+  theme_minimal() +
+  coord_flip() +
+  scale_color_brewer(palette = "Paired") +
+  scale_fill_brewer(palette = "Paired") 
+  
+```
+
+## Grouped rain cloud plot with facets
+
+```{r chunk28}
+
+globalData2019clean %>% 
+  ggplot(aes(y = LADDER_NOW, fill = SEX, color = SEX)) +
+  geom_half_violin(side = "r") +
+  geom_half_point(alpha = .3, side = "l") +
+  labs(x = "Country",
+       y = "Life ladder (0 = worst, 10 = best)",
+       title = "Life ladder by sex and country for 5001 participants in a 2019 survey\nof people from Kenya, Nigeria, South Africa, and the United States.",
+       color = "Sex",
+       fill = "Sex") +
+  theme_minimal() +
+  coord_flip() +
+  scale_color_brewer(palette = "Paired") +
+  scale_fill_brewer(palette = "Paired") +
+  facet_wrap(facets = vars(country))
+  
+```
 
 ## The final challenges...choose one or try them all!
 
